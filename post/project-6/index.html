@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>NLP 5: Information Extraction | Shikshya Dahal</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Pierre Gringoire">
+    <meta name="generator" content="Hugo 0.68.3" />
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/shikshya/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="NLP 5: Information Extraction" />
+<meta property="og:description" content="Pierre Gringoire" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shikshya-d.github.io/shikshya/post/project-6/" />
+<meta property="article:published_time" content="2017-04-10T11:00:59-04:00" />
+<meta property="article:modified_time" content="2017-04-10T11:00:59-04:00" /><meta property="og:site_name" content="Shikshya Dahal" />
+<meta itemprop="name" content="NLP 5: Information Extraction">
+<meta itemprop="description" content="Pierre Gringoire">
+<meta itemprop="datePublished" content="2017-04-10T11:00:59-04:00" />
+<meta itemprop="dateModified" content="2017-04-10T11:00:59-04:00" />
+<meta itemprop="wordCount" content="1187">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="NLP 5: Information Extraction"/>
+<meta name="twitter:description" content="Pierre Gringoire"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/shikshya/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Shikshya Dahal
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/shikshya/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/shikshya/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/shikshya/post/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    <a href="https://github.com/shikshya1" target="_blank" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" rel="noopener" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        PROJECTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">NLP 5: Information Extraction</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2017-04-10T11:00:59-04:00">April 10, 2017</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Information extraction
+(IE) refers to the NLP task of extracting relevant information from text documents.
+An example of IE put to use in real-world applications are the short blurbs we see to
+the right when we search for a popular figure’s name on Google.</p>
+<p>IE Applications</p>
+<p>IE is used in a wide range of real-world applications, from news articles, to social
+media, and even receipts.</p>
+<ol>
+<li>Tagging news and other content :</li>
+</ol>
+<p>There’s a lot of text generated about various events happening around the world
+every day. If texts are tagged with important entities mentioned within them, it is useful for search engines and recommendation systems.</p>
+<ol start="2">
+<li>Chatbots :</li>
+</ol>
+<p>A chatbot needs to understand the user’s question in order to generate/retrieve a
+correct response. For example, consider the question, “What are the best cafes
+around the Eiffel Tower?” The chatbot needs to understand that “Eiffel Tower”
+and “cafe” are locations, then identify cafes within a certain distance of the Eiffel
+Tower. IE is useful in extracting such specific information from a pool of avail‐
+able data.</p>
+<ol start="3">
+<li>Applications in social media :</li>
+</ol>
+<p>A lot of information is disseminated through social media channels like Twitter.
+Extracting informative excerpts from social media text may help in decision
+making. An example use case is extracting time-sensitive, frequently updated
+information, such as traffic updates and disaster relief efforts, based on tweets.
+NLP for Twitter is one of the most useful applications that utilizes the abundant
+information present in social media.</p>
+<ol start="4">
+<li>Extracting data from forms and receipts :</li>
+</ol>
+<p>Many banking apps nowadays have the feature to scan a check and deposit the
+money directly into the user’s account. Whether you’re an individual, small busi‐
+ness, or larger business enterprise, it’s not uncommon to use apps that scan bills
+and receipts. Along with optical character recognition (OCR), information
+extraction techniques play an important role in these apps.</p>
+<p>Keyphrase Extraction:</p>
+<p>Consider a scenario where we want to buy a product, which has a hundred reviews,
+on Amazon. There’s no way we’re going to read all of them to get an idea of what
+users think about the product. To facilitate this, Amazon has a filtering feature: “Read
+reviews that mention.” This presents a bunch of keywords or phrases that several peo‐
+ple used in these reviews to filter the reviews. This is a good
+example of where KPE can be useful in an application we all use.</p>
+<p>Keyword and phrase extraction, as the name indicates, is the IE task concerned
+with extracting important words and phrases that capture the gist of the text from a
+given text document. It’s useful for several downstream NLP tasks, such as search/information retrieval, automatic document tagging, recommendation systems,
+text summarization, etc.</p>
+<p>Things to consider:</p>
+<ol>
+<li>
+<p>The process of extracting potential n-grams and building the graph with them is
+sensitive to document length, which could be an issue in a production scenario.
+One approach to dealing with it is to not use the full text, but instead try using the first M% and the last N% of the text, since we would expect that the introduc‐
+tory and concluding parts of the text should cover the main summary of the text.</p>
+</li>
+<li>
+<p>Since each keyphrase is independently ranked, we sometimes end up seeing over‐
+lapping keyphrases (e.g., “buy back stock” and “buy back”). One solution for this
+could be to use some similarity measure (e.g., cosine similarity) between the top-
+ranked keyphrases and choose the ones that are most dissimilar to one another.
+textacy already implements a function to address this issue.</p>
+</li>
+<li>
+<p>Seeing counterproductive patterns (e.g., a keyphrase that starts with a preposition
+when you don’t want that) is another common problem. This is relatively
+straightforward to handle by tweaking the implementation code for the algo‐
+rithm and explicitly encoding information about such unwanted word patterns.</p>
+</li>
+<li>
+<p>Improper text extraction can affect the rest of the KPE process, especially when
+dealing with formats such as PDF or scanned images. This is primarily because
+KPE is sensitive to sentence structure in the document. Hence, it’s always a good
+idea to add some post-processing to the extracted key phrases list to create a
+final, meaningful list without noise.</p>
+</li>
+</ol>
+<p>Stemming and Lemmatization:</p>
+<p>The goal of both stemming and lemmatization is to reduce inflectional forms and sometimes derivationally related forms of a word to a common base form.</p>
+<p>However, the two words differ in their flavor. Stemming usually refers to a crude heuristic process that chops off the ends of words in the hope of achieving this goal correctly most of the time, and often includes the removal of derivational affixes. Lemmatization usually refers to doing things properly with the use of a vocabulary and morphological analysis of words, normally aiming to remove inflectional endings only and to return the base or dictionary form of a word, which is known as the lemma.</p>
+<p>NAMED ENTITY RECOGNITION</p>
+<p>NER refers to the IE task of identifying the entities in a document. Entities are typi‐
+cally names of persons, locations, and organizations, and other specialized strings,
+such as money expressions, dates, products, names/numbers of laws or articles, and
+so on. NER is an important step in the pipeline of several NLP applications involving
+information extraction.</p>
+<p>A simple approach to building an NER system is to maintain a large collection of per‐
+son/organization/location names that are the most relevant to our company (e.g.,
+names of all clients, cities in their addresses, etc.); this is typically referred to as a
+gazetteer. To check whether a given word is a named entity or not, just do a lookup in
+the gazetteer. If a large number of entities present in our data are covered by a gazet‐
+teer, then it’s a great way to start, especially when we don’t have an existing NER sys‐
+tem available. There are a few questions to consider with such an approach. How
+does it deal with new names? How do we periodically update this database? How does
+it keep track of aliases, i.e., different variations of a given name (e.g., USA, United
+States, etc.)?</p>
+<ul>
+<li>
+<p>Rule-Based Ner : based on a compiled list of patterns based on word tokens and POS tags. For example, a pattern “NNP was born,” where “NNP” is the POS tag for a proper noun, indicates
+that the word that was tagged “NNP” refers to a person. Such rules can be program‐
+med to cover as many cases as possible to build a rule-based NER system. Stanford
+NLP’s RegexNER  and spaCy’s EntityRuler provide functionalities to imple‐
+ment your own rule-based NER.</p>
+</li>
+<li>
+<p>ML model: predict the named entities in unseen text. For each word, a decision has to be made whether or not that word is an entity, and if it is, what type of the entity it is. In many ways, similar to the classification problems.</p>
+</li>
+</ul>
+<p>NER is traditionally modeled as sequence classification problem, where entity prediction of current word also depends on the context. For example, if the previous word was a person name, there&rsquo;s a probability that the current word is also a person name if it&rsquo;s a noun (e.g., first and last names).</p>
+<p>CONDITIONAL RANDOM FIELDS (CRFs) : sequence classifier training algorithm</p>
+<p>References:</p>
+<p><a href="https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html">https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html</a></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" >
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    <a href="https://github.com/shikshya1" target="_blank" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" rel="noopener" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div></div>
+  </div>
+</footer>
+
+  </body>
+</html>
