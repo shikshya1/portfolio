@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Shikshya Dahal</title>
+    <link>https://shikshya-d.github.io/shikshya/post/</link>
+    <description>Recent content in Projects on Shikshya Dahal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://shikshya-d.github.io/shikshya/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NLP 1: NLP pipelines</title>
+      <link>https://shikshya-d.github.io/shikshya/post/project-1/</link>
+      <pubDate>Tue, 07 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://shikshya-d.github.io/shikshya/post/project-1/</guid>
+      <description>NLP :
+&amp;ldquo;As we all know, dealing with natural language is hard. It is hard from the standpoint of the child, who must spend many years acquiring a language (compare this time span to that required for the acquisition of motor skills such as eating solids, walking, or swimming), it is hard for the adult language learner, it is hard for the scientist who attempts to model the relevant phenomena, and it is hard for the engineer who attempts to build systems that deal with natural language input or output.</description>
+    </item>
+    
+    <item>
+      <title>NLP 2: Text Representation</title>
+      <link>https://shikshya-d.github.io/shikshya/post/project-3/</link>
+      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      
+      <guid>https://shikshya-d.github.io/shikshya/post/project-3/</guid>
+      <description>Text representation deals with reptresenting text mathematically. These approaches are divided into four categories:
+ Basic vectorization approaches Distributed representations Universal language representations Handcrafted representations  Vector space models: Text data must be converted into some mathematical form in order to work with ML algorithms.Representing text units (characters, phonemes, words, phrases, sentences, paragraphs, and documents) with vectors of numbers is known as the vector space model (VSM). The most common way to calculate similarity between two text blobs is using cosine similarity: the cosine of the angle between their corresponding vectors.</description>
+    </item>
+    
+    <item>
+      <title>NLP 2: Transformers</title>
+      <link>https://shikshya-d.github.io/shikshya/post/project-2/</link>
+      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      
+      <guid>https://shikshya-d.github.io/shikshya/post/project-2/</guid>
+      <description>Attention is all you need - Vaswani et al
+BERT:
+Bias in BERT: Racism
+BERT Training:
+Corpus:
+Techniques: -MLM -Next sentence prediction
+Pre-training:
+ Training a model from scratch Weights are randomly initialized Model is then pre-trained on large amounts of data  Encoder only models: BERT Roberta
+Decoder only models:
+Genrerative models: GPT
+BERT cannot do text summarization. generation, translation and it doesnot have decoder. It can do Text classification, NER, QA, Fill in the blanks</description>
+    </item>
+    
+    <item>
+      <title>NLP 3: Text Classification</title>
+      <link>https://shikshya-d.github.io/shikshya/post/project-4/</link>
+      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      
+      <guid>https://shikshya-d.github.io/shikshya/post/project-4/</guid>
+      <description>Classification is the problem of categorizing a data instance into one or more known classes. Also referred as topic classification, text categorization, or document categorization.
+Text classification is distinguished into three types based on the number of categories involved: binary, multiclass, and multilabel classification.
+Binary classification: If the number of classes is two, it’s called binary classification.
+Multiclass classification: If the number of classes is more than two, it’s referred to as mul‐ ticlass classification.</description>
+    </item>
+    
+    <item>
+      <title>NLP 3: Text Generation</title>
+      <link>https://shikshya-d.github.io/shikshya/post/project-5/</link>
+      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      
+      <guid>https://shikshya-d.github.io/shikshya/post/project-5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP 5: Information Extraction</title>
+      <link>https://shikshya-d.github.io/shikshya/post/project-6/</link>
+      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      
+      <guid>https://shikshya-d.github.io/shikshya/post/project-6/</guid>
+      <description>Information extraction (IE) refers to the NLP task of extracting relevant information from text documents. An example of IE put to use in real-world applications are the short blurbs we see to the right when we search for a popular figure’s name on Google.
+IE Applications
+IE is used in a wide range of real-world applications, from news articles, to social media, and even receipts.
+ Tagging news and other content :  There’s a lot of text generated about various events happening around the world every day.</description>
+    </item>
+    
+    <item>
+      <title>NLP: Topic Modeling</title>
+      <link>https://shikshya-d.github.io/shikshya/post/project-8/</link>
+      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      
+      <guid>https://shikshya-d.github.io/shikshya/post/project-8/</guid>
+      <description>Topic modeling is one of the most common applications of NLP in industrial use cases. For analyzing different forms of text from news articles to tweets, from visual‐ izing word clouds to creating graphs of connected topics and docu‐ ments, topic models are useful for a range of use cases. Topic models are used extensively for document clustering and organizing large collections of text data. They’re also useful for text classification.</description>
+    </item>
+    
+    <item>
+      <title>Topics to explore</title>
+      <link>https://shikshya-d.github.io/shikshya/post/project-7/</link>
+      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      
+      <guid>https://shikshya-d.github.io/shikshya/post/project-7/</guid>
+      <description> RELATIONSHIP EXTRACTION EVENT EXTRACTION TEMPLATE FILLING  </description>
+    </item>
+    
+  </channel>
+</rss>

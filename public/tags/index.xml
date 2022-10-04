@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Shikshya Dahal</title>
+    <link>https://shikshya-d.github.io/shikshya/tags/</link>
+    <description>Recent content in Tags on Shikshya Dahal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Apr 2020 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://shikshya-d.github.io/shikshya/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>scene</title>
+      <link>https://shikshya-d.github.io/shikshya/tags/scene/</link>
+      <pubDate>Tue, 07 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://shikshya-d.github.io/shikshya/tags/scene/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
