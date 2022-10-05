@@ -2,15 +2,17 @@
 title: Contact
 featured_image: ''
 omit_header_text: true
-description: We'd love to hear from you
+description: I'd love to hear from you
 type: page
 menu: main
 
 ---
 
 
-Follow me on these social media platforms:
+Reach out to me on these platforms:
 
 platform | URL
 ---|---
-Github: | https://github.com/shikshya1
+Github:   | https://github.com/shikshya1
+Gmail:    | shikshyadahal@gmail.com
+Linkedin: | https://www.linkedin.com/in/shikshya-dahal/
