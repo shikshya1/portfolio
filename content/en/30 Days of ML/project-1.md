@@ -1,8 +1,6 @@
 ---
 date: 2020-04-07T10:58:08-04:00
-description: "Day 1"
-featured_image: "/images/projects.jpg"
-tags: ["scene"]
+tags: ["Normalization", "ML"]
 title: "Day 1- Feature Scaling"
 ---
 
