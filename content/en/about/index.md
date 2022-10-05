@@ -1,11 +1,13 @@
 ---
-title: "About"
-description: "Hi. My Name is Shikshya Dahal. I'm a Machine Learning Developer. Most of my works are focused on NLP and Conversational AI."
-featured_image: '/images/bg.jpg'
+# title: "About"
+# description: "Hi. My Name is Shikshya Dahal. I'm a Machine Learning Developer. Most of my works are focused on NLP and Conversational AI."
+featured_image: '/images/shikshya.png'
 menu:
   main:
     weight: 1
 ---
 {{< figure src="/images/pp.jpg" >}}
+
+Hi. My Name is Shikshya Dahal. I am an Information Management Graduate with specialization in Data Science and AI.
 
 Data science has always been my passion. Extracting knowledge from data that drive decision making excites me.
