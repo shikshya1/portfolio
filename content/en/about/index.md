@@ -9,22 +9,26 @@ menu:
 ---
 <!-- {{< figure src="/images/pp.jpg" >}} -->
 
-# About:
+
 Hi. My Name is Shikshya Dahal. I am an Information Management Graduate with specialization in Data Science and AI. Currently, I'm working as a Machine Learning Developer and most of my works are in NLP and Conversational AI. Data science has always been my passion. I am good at handling data and I have a solid foundation and experience in  building ML and statistical models. I find exploring and visualizing insights hidden in data to develop data driven solutions that aids in decision making more than admirable. My inquisitive nature helps me to think and understand data science use cases from multiple perspective.
 
 ### Education:
 
 - Master of Science, Information Management (Specialization: Data Science & AI) 
+
   (Asian Institute of Technology, Pathum Thani, Thailand)
 
   Courseworks: Machine learning, Information Retrieval and Data Mining, Database Management System, Information system Development and Management, Project management
+
   Research: Text Analytics of TripAdvisor reviews on Tourism Destinations (
              Applied Topic Modeling, Sentiment Analysis and Statistical modeling to the data scraped from TripAdvisor to extract the major themes mentioned in the reviews and sentiment associated with it.)
 
 - Bachelors in Information Management
+
   (St. Xavier's College, Maitighar, Kathmandu)
 
   Courseworks: Artificial Intelligence, Management Information System, Web Development
+  
   Research: "SISM : CMS based Support for the Improvement of Primary School Management” (Built CMS to develop learning support materials to enhance quality of education through the use of ICT to fulfill objective of distance learning and distance education set by the Ministry of Education, Nepal.)
 
 
