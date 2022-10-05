@@ -1,5 +1,5 @@
 ---
-date: 2020-04-07T10:58:08-04:00
+date: 2020-07-01T10:58:08-04:00
 tags: ["Normalization", "ML"]
 title: "Day 1- Feature Scaling"
 ---
@@ -39,6 +39,7 @@ Standardization doesnot bound values to a specific range while normalization doe
 ### Batch Normalization in Deep Learning
 
 - Batch Normalization:
+
 There are several ways in which we can initialize weights during training. But even that cannot ensure unstable gradient problem while training neural networks. Batch normalization addresses this issue; it zero centers and normalizes each input followed by scaling and shifting of result with two new parameters per layer (one for shifting and one for scaling). It helps to find good transformation to overcome the unstable gradient problem and helps in faster model training. Although the training epoch will take longer due to the added computation but it will converge faster. Also, there's no need to standardize the data before feeding into the neural network and reduces the need of using regularization techniques too.
 
 
