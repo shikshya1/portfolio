@@ -7,7 +7,7 @@ menu:
   main:
     weight: 1
 ---
-{{< figure src="/images/shikshya.png" >}}
+{{< figure src="/images/pp.jpg" >}}
 
 Hi. My Name is Shikshya Dahal. I am an Information Management Graduate with specialization in Data Science and AI.
 
