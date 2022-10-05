@@ -1,7 +1,7 @@
 ---
 # title: "About"
 # description: "Hi. My Name is Shikshya Dahal. I'm a Machine Learning Developer. Most of my works are focused on NLP and Conversational AI."
-omit_header_text: true
+# omit_header_text: true
 # featured_image: '/images/shikshya.png'
 menu:
   main:
