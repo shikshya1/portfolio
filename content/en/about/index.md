@@ -14,7 +14,7 @@ Hi. My Name is Shikshya Dahal. I am an Information Management Graduate with spec
 
 ### Education:
 
-- Master of Science, Information Management (Specialization: Data Science & AI) 
+- #### Master of Science, Information Management (Specialization: Data Science & AI) 
 
   (Asian Institute of Technology, Pathum Thani, Thailand)
 
@@ -23,18 +23,18 @@ Hi. My Name is Shikshya Dahal. I am an Information Management Graduate with spec
   Research: Text Analytics of TripAdvisor reviews on Tourism Destinations (
              Applied Topic Modeling, Sentiment Analysis and Statistical modeling to the data scraped from TripAdvisor to extract the major themes mentioned in the reviews and sentiment associated with it.)
 
-- Bachelors in Information Management
+- #### Bachelors in Information Management
 
   (St. Xavier's College, Maitighar, Kathmandu)
 
   Courseworks: Artificial Intelligence, Management Information System, Web Development
-  
+
   Research: "SISM : CMS based Support for the Improvement of Primary School Management” (Built CMS to develop learning support materials to enhance quality of education through the use of ICT to fulfill objective of distance learning and distance education set by the Ministry of Education, Nepal.)
 
 
 ### Work Experience:
 
-- Machine Learning Developer 
+- #### Machine Learning Developer 
   (Sharelook Pte. LTD, Singapore : Dec 2020 – present)
 
   Major responsibilites:
@@ -44,7 +44,7 @@ Hi. My Name is Shikshya Dahal. I am an Information Management Graduate with spec
   3. Implemented algorithm for detecting topic changes in a video using word-embeddings.
   4. Research, implement, test and evaluate ML models.
 
-- Software Developer (JAVA)
+- #### Software Developer (JAVA)
   (Guru Infosys, Kathmandu : 03/2017-06/2018)
 
   Major responsibilities:
@@ -53,7 +53,7 @@ Hi. My Name is Shikshya Dahal. I am an Information Management Graduate with spec
   2. Data modeling and database implementation.
   3. Presenting and working on ideas for system improvement.
 
-- Web Developer (PHP)
+- #### Web Developer (PHP)
   (Softech Foundation, Kathmandu : 08/2016-02/2017)
 
   Major responsibilities:
