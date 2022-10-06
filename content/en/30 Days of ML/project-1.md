@@ -1,5 +1,5 @@
 ---
-date: 2020-07-01T10:58:08-04:00
+date: 2020-09-01T10:58:08-04:00
 tags: ["Normalization", "ML"]
 title: "Day 1- Feature Scaling"
 ---
@@ -23,7 +23,7 @@ Feature scaling can be done through:
 
 #### Normalization: 
 
-Normalization also referred as MIn-Max scaling is the simplest where values aee shifted and rescaled such that data is scaled between 0 & 1. 
+Normalization also referred as Min-Max scaling is the simplest where values are shifted and rescaled such that data is scaled between 0 & 1. 
 
 X<sup>1</sup> = (X-X<sub>min</sub>)/(X<sub>max</sub> - X<sub>min</sub>)
 
@@ -43,4 +43,4 @@ Standardization doesnot bound values to a specific range while normalization doe
 There are several ways in which we can initialize weights during training. But even that cannot ensure unstable gradient problem while training neural networks. Batch normalization addresses this issue; it zero centers and normalizes each input followed by scaling and shifting of result with two new parameters per layer (one for shifting and one for scaling). It helps to find good transformation to overcome the unstable gradient problem and helps in faster model training. Although the training epoch will take longer due to the added computation but it will converge faster. Also, there's no need to standardize the data before feeding into the neural network and reduces the need of using regularization techniques too.
 
 
-
+### Link to github page: [Feature_Scaling](https://github.com/shikshya1/30_days_of_ml/tree/main/Day-1(Feature%20Scaling))
