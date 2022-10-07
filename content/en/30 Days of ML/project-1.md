@@ -1,5 +1,5 @@
 ---
-date: 2020-09-01T10:58:08-04:00
+date: 2022-09-01T10:58:08-04:00
 tags: ["Normalization", "ML"]
 title: "Day 1- Feature Scaling"
 ---
