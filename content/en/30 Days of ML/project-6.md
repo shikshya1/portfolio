@@ -1,5 +1,5 @@
 ---
-date: 2022-09-05T10:58:08-04:00
+date: 2022-10-06T10:58:08-04:00
 tags: ["Word2Vec"]
 title: "Day 6- Text Representation"
 ---
