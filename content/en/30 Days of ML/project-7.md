@@ -9,7 +9,7 @@ title: "Day 7- Measuring Distance"
 ### Eucledian Distance
 Eucledian distance measures the distance between two points.
 
-{{< figure src="eucledian_distance.png" >}}
+{{< figure src="./eucledian_distance.png" >}}
 
 
 ### Cosine similarity
@@ -22,7 +22,7 @@ The similarity is:
 2) 0 when θ=90∘
 3) −1 when θ=180∘
 
-{{< figure src="cosine_similarity.png" >}}
+{{< figure src="./cosine_similarity.png" >}}
 
 
 ### Transformers
