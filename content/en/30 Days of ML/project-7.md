@@ -1,5 +1,5 @@
 ---
-date: 2022-10-06T10:58:08-04:00
+date: 2022-10-07T10:58:08-04:00
 tags: ["BERT", "Cosine similarity", "Eucledian distance"]
 title: "Day 7- Measuring Distance"
 ---
