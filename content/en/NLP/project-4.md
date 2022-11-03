@@ -20,4 +20,4 @@ States, etc.)?
 
 NER is traditionally modeled as sequence classification problem, where entity prediction of current word also depends on the context. For example, if the previous word was a person name, there's a probability that the current word is also a person name if it's a noun (e.g., first and last names).
 
-### Link to github page: [Code](https://github.com/shikshya1/30_days_of_ml/tree/main/Day-5%20(NER))
+### Link to github page: [Code](https://github.com/shikshya1/NLP/tree/main/NER)

@@ -43,4 +43,4 @@ Standardization doesnot bound values to a specific range while normalization doe
 There are several ways in which we can initialize weights during training. But even that cannot ensure unstable gradient problem while training neural networks. Batch normalization addresses this issue; it zero centers and normalizes each input followed by scaling and shifting of result with two new parameters per layer (one for shifting and one for scaling). It helps to find good transformation to overcome the unstable gradient problem and helps in faster model training. Although the training epoch will take longer due to the added computation but it will converge faster. Also, there's no need to standardize the data before feeding into the neural network and reduces the need of using regularization techniques too.
 
 
-### Link to github page: [Code](https://github.com/shikshya1/30_days_of_ml/tree/main/Day-1(Feature%20Scaling))
+### Link to github page: [Code](https://github.com/shikshya1/ML_Basics/tree/main/Feature%20Scaling)

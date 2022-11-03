@@ -64,6 +64,6 @@ model is to assign probabilities in such a way that it gives high probability to
 
 2) SkipGram: SkipGram is very similar to CBOW, with some minor changes. In SkipGram, the task is to predict the context words from the center word. 
 
-### Link to github page: [Code](https://github.com/shikshya1/30_days_of_ml/tree/main/Day-6%20(Text%20representation))
+### Link to github page: [Code](https://github.com/shikshya1/NLP/tree/main/Text%20representation)
 
 Note: The notebook contains sample implementation of one-hot encoding, TF-IDF and logistic regression with word2vec representation

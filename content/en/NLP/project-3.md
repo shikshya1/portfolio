@@ -23,4 +23,4 @@ This notebook linked with this post demostrates how to use several ML algorigthm
 
 6) BERT
 
-### Link to github page: [Code](https://github.com/shikshya1/30_days_of_ml/tree/main/Day-4%20(Text%20Classification))
+### Link to github page: [Code](https://github.com/shikshya1/NLP/tree/main/Text%20Classification)

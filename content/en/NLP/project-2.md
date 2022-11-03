@@ -29,4 +29,4 @@ Explaining the Predictions of Any Classifier
 https://arxiv.org/abs/1705.07874 : A Unified Approach to Interpreting Model Predictions
 
 
-### Link to github page: [Code](https://github.com/shikshya1/30_days_of_ml/tree/main/Day-2%20(Interpreting%20classification%20models))
+### Link to github page: [Code](https://github.com/shikshya1/NLP/tree/main/Interpreting%20classification%20models)

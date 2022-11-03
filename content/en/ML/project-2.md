@@ -17,4 +17,4 @@ Reference :
 1) https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf : Visualizing Data using t-SNE
 
 
-### Link to github page: [Code](https://github.com/shikshya1/30_days_of_ml/tree/main/Day-3(t-sne))
+### Link to github page: [Code](https://github.com/shikshya1/ML_Basics/tree/main/t-sne)

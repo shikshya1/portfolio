@@ -31,5 +31,5 @@ Transformers architecture is considered as one of the major breakthrough in the 
 
 
 
-### Link to github page: [Code](https://github.com/shikshya1/30_days_of_ml/tree/main/Day-7%20(Measuring%20Distance))
+### Link to github page: [Code](https://github.com/shikshya1/NLP/tree/main/Measuring%20Distance)
 
