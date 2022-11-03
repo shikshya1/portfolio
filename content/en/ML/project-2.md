@@ -1,32 +1,20 @@
 ---
-date: 2022-10-02T10:58:08-04:00
-tags: ["LIME", "SHAP"]
-title: "Day 2- Interpreting Classification Models"
+date: 2022-10-03T10:58:08-04:00
+tags: ["t-sne", "PCA"]
+title: "t-SNE"
 ---
 
-# Interpreting Classification Models
+# t-Distributed Stochastic Neighbor Embedding (t-SNE)
 
-When we are building classification models; we are most of the time concerned about the performance criteria (how accurate the model is to classify the output labels). We donot look for explanations as to why it decided to classify the input to a certain class. But there are situations where questioning the decision of classification model becomes necessary.
+t-SNE is a unsupervised, non-parametric (non-linear) dimensionality reduction method  used for visualization and exploration of high-dimensional datasets. It gives an idea of how data is arranged in higher dimension. It's hard for us to visualize data beyond 3 dimension. Standard visualization methods can usually capture one or two variable at a time. In such cases, dimension reduction algorithm can help to analyze the pattern in the data. T-SNE preserves much of significant structure of high dimensional data as possible during projection. It is an iterative algorithm which minimizes non-convex objective using gradient descent. T-SNE is used to visualize genomic data, word embeddings, images etc. 
 
-Suppose we are building classifier that identifies spam emails. It identifies certain email as 'spam' and moves it to spam folder rather than placing it in inbox folder without the need of human intervention. But no NLP models are 100% accurate. We still arenot able to build language models that can accurately understand ambiguity and complexity of natural language. So, if we have a certain way to explian what features are prominent in making a decision whether to mark an email as ham or spam will help humans to understand the model and how it will perform in other similar real world data.  As the interest in interpretability of model is growing, explaining predictions of model will help to assessing trust of people using it. We can use LIME and Shap for this purpose.
-
-
-## LIME (Local Interpretable Model-agnostic Explanations)
-
-The main reason that author proposed LIME in the original paper was to understand the reasons behind predictions of machine learning models that are usually treated as black box. The authors have argued that is important to trust a model to behave in reasonable ways while using for decision making pupose where predictions cannot be acted upon on blind faith. LIME  learns an interpretable model locally around the prediction.  LIME builds sparse linear models around an individual prediction in its local vicinity.
+While PCA is a popular algorithm used for dimension reduction, there are few differences that set t-SNE apart from PCA.  The objective of PCA is to project data into lower dimensional space in a way that maximizes the variance. It mostly preserves the distance between the dissimilar points but it can lead to poor visualization especially when dealing with non-linear manifold structures. While t-SNE works by preserving local similarities and produces better visualization as in complex datasets, large distances are usually less indicative of actual structure.
 
 
-## SHAP (SHapley Additive exPlanations)
 
-SHAP assigns each feature an importance value for a particular prediction. Its novel components include: (1) the identification of a new class of additive feature importance measures, and (2) theoretical results showing there is a unique solution in this class with a set of desirable properties.
+Reference :
 
-
-References:
-
-https://arxiv.org/pdf/1602.04938.pdf : Why Should I Trust You?”
-Explaining the Predictions of Any Classifier
-
-https://arxiv.org/abs/1705.07874 : A Unified Approach to Interpreting Model Predictions
+1) https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf : Visualizing Data using t-SNE
 
 
-### Link to github page: [Code](https://github.com/shikshya1/30_days_of_ml/tree/main/Day-2%20(Interpreting%20classification%20models))
+### Link to github page: [Code](https://github.com/shikshya1/30_days_of_ml/tree/main/Day-3(t-sne))

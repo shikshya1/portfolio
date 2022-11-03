@@ -1,7 +1,7 @@
 ---
 date: 2022-10-04T10:58:08-04:00
 tags: ["Classification", "SVM", "BERT"]
-title: "Day 4- Text Classification"
+title: "Text Classification"
 ---
 
 

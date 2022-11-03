@@ -1,7 +1,7 @@
 ---
 date: 2022-10-05T10:58:08-04:00
 tags: ["NER"]
-title: "Day 5- NER"
+title: "NER"
 ---
 
 
