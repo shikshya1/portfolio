@@ -5,8 +5,6 @@ tags: ["Statistics"]
 title: "Exploratory Data Analysis"
 ---
 
-# Statistics
-
 Statistics is the study of how to collect, organize, analyze and interpret numerical information and data. 
 
 There are two major terms repeated frequently in the statistics domain: population and sample. 

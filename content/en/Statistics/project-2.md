@@ -4,8 +4,6 @@ description: "Sampling and bias"
 tags: ["Statistics"]
 title: "Sampling and bias"
 ---
-# Sampling
-
 The rise of big data in today's world might raise a misconception that we donot need sampling anymore. But it is even more relevant in today's world as we have to deal with data from variety of sources and to minimize bias.It is impractical and unnecessary to measure the whole population. It also helps to save resources.
 
 Sampling frame: List of individuals from which the sample is selected.

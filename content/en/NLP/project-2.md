@@ -4,8 +4,6 @@ tags: ["LIME", "SHAP"]
 title: "Interpreting Classification Models"
 ---
 
-# Interpreting Classification Models
-
 When we are building classification models; we are most of the time concerned about the performance criteria (how accurate the model is to classify the output labels). We donot look for explanations as to why it decided to classify the input to a certain class. But there are situations where questioning the decision of classification model becomes necessary.
 
 Suppose we are building classifier that identifies spam emails. It identifies certain email as 'spam' and moves it to spam folder rather than placing it in inbox folder without the need of human intervention. But no NLP models are 100% accurate. We still arenot able to build language models that can accurately understand ambiguity and complexity of natural language. So, if we have a certain way to explian what features are prominent in making a decision whether to mark an email as ham or spam will help humans to understand the model and how it will perform in other similar real world data.  As the interest in interpretability of model is growing, explaining predictions of model will help to assessing trust of people using it. We can use LIME and Shap for this purpose.

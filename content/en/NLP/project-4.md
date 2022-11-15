@@ -5,8 +5,6 @@ title: "NER"
 ---
 
 
-# Named Entity Recognition
-
 NER refers to the IE task of identifying the entities in a document. Entities are typically names of persons, locations, and organizations, and other specialized strings, such as money expressions, dates, products, names/numbers of laws or articles, and so on. NER is an important step in the pipeline of several NLP applications involving information extraction.
 
 A simple approach to building an NER system is to maintain a large collection of person/organization/location names that are the most relevant to our company (e.g., names of all clients, cities in their addresses, etc.); this is typically referred to as a gazetteer. To check whether a given word is a named entity or not, just do a lookup in the gazetteer. If a large number of entities present in our data are covered by a gazetteer, then it’s a great way to start, especially when we don’t have an existing NER system available. There are a few questions to consider with such an approach. How does it deal with new names? How do we periodically update this database? How does it keep track of aliases, i.e., different variations of a given name (e.g., USA, United
