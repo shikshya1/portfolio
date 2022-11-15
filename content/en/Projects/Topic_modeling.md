@@ -1,10 +1,9 @@
 ---
-date: 2022-10-04T10:58:08-04:00
+date: 2022-11-05T10:58:08-04:00
 tags: ["LDA","BERTopic"]
 title: "Topic modeling"
 ---
 
-### TOPIC MODELING
 
 Topic modeling is a statistical modeling that can be used to discover hidden (latent) themes from the collection of documents. Having information about the problems and opinions about a certain product or services can be very important for businesses. But discovering themes in a large mine of online reviews or comments in the internet can be a expensive process. Thus, several algorithms like NMF, LDA, BERT can be employed for this purpose. In this project, I'll be discussing about LDA.
 
