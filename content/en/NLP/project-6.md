@@ -4,7 +4,7 @@ tags: ["BERT", "Cosine similarity", "Eucledian distance"]
 title: "Measuring Distance"
 ---
 
-# Measuring Distance
+<!-- # Measuring Distance -->
 
 ### Eucledian Distance
 Eucledian distance measures the distance between two points.
