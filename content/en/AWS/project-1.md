@@ -1,11 +1,11 @@
 ---
 date: 2022-10-01T10:58:08-04:00
 tags: ["Serverless","AWS Lambda"]
-title: "Deploying lambda function with external python packages using serverless framework. "
+title: "Deploy lambda function with external python packages using serverless framework. "
 ---
 
-
-Overview:
+<br/>
+Overview: <br/>
 
 Lambda Function & Layers: AWS Lambda is a computing service that allows us to run our code without the overhead of configuring and managing a server. It can be scaled automatically based on the request and the charge is calculated only for the compute time. Lambda function can be deployed using .zip file archive that contains function and the dependency or using container image. Lambda layers can be used to package external dependencies that is required to run lambda function. It promotes  sharing components that can be used in multiple lambda functions. It also helps in reducing the size of lambda function making it faster to deploy our code. 
 

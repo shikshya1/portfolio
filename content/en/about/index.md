@@ -63,3 +63,10 @@ Hi. My Name is Shikshya Dahal. I am an Information Management Graduate with spec
   3. Understanding the rationale behind the product and design approach.
 
 
+Reach out to me on these platforms:
+
+platform | URL
+---|---
+Github:   | https://github.com/shikshya1
+Gmail:    | shikshyadahal@gmail.com
+Linkedin: | https://www.linkedin.com/in/shikshya-dahal/
