@@ -64,7 +64,7 @@ In this case pluginName will be replaced by serverless-python-requirements
 sls plugin install --name serverless-python-requirements
 ```
 
-Update the handler.py with the code that you want to run add the python pacakages that you need to run the code in requirements.txt
+Update the handler.py with the code that you want to run and add the python packages that you need to run the code in requirements.txt
 
 ```
 try:
