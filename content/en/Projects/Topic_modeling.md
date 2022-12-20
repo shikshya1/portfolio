@@ -33,10 +33,10 @@ Params:
 3) eta: topic-word density
 
 ## Interpreting topics:
-<!-- {{< figure src="https://github.com/shikshya1/projects/blob/main/topic-modeling/depression_topics.png" >}} -->
+{{< figure src="https://github.com/shikshya1/projects/blob/main/topic-modeling/vis_depression_topics.png?raw=true" >}}
 
 
-<img src="https://github.com/shikshya1/projects/blob/main/topic-modeling/vis_depression_topics.png?raw=true" alt="Topics" title="Topics">
+<!-- <img src="https://github.com/shikshya1/projects/blob/main/topic-modeling/vis_depression_topics.png?raw=true" alt="Topics" title="Topics"> -->
 
 1) Topic 1: Topic 1 mainly has words like disorder, death,shame, lonelineness, illness which can be categorized as loss.
 2) Topic 2: Topic 2 mainly has discussion around mental health topic with words like depression, anxiety, trauma, help, adhd and so on.
