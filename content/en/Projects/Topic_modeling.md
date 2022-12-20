@@ -35,7 +35,12 @@ Params:
 ## Interpreting topics:
 {{< figure src="https://github.com/shikshya1/projects/blob/main/topic-modeling/vis_depression_topics.png?raw=true" >}}
 
-
+<figure>
+  <img src="https://github.com/shikshya1/projects/blob/main/topic-modeling/vis_depression_topics.png?raw=true"  />
+  <figcaption>
+      <h4>Steve Francia</h4>
+  </figcaption>
+</figure>
 <!-- <img src="https://github.com/shikshya1/projects/blob/main/topic-modeling/vis_depression_topics.png?raw=true" alt="Topics" title="Topics"> -->
 
 1) Topic 1: Topic 1 mainly has words like disorder, death,shame, lonelineness, illness which can be categorized as loss.
