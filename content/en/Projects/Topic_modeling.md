@@ -33,13 +33,10 @@ Params:
 3) eta: topic-word density
 
 ## Interpreting topics:
-{{< figure src="https://github.com/shikshya1/projects/blob/main/topic-modeling/vis_depression_topics.png?raw=true" >}}
+<!-- {{< figure src="https://github.com/shikshya1/projects/blob/main/topic-modeling/vis_depression_topics.png?raw=true" >}} -->
 
 <figure>
-  <img src="https://github.com/shikshya1/projects/blob/main/topic-modeling/vis_depression_topics.png?raw=true"  />
-  <figcaption>
-      <h4>Steve Francia</h4>
-  </figcaption>
+  <img src="https://github.com/shikshya1/projects/blob/main/topic-modeling/vis_depression_topics.png?raw=true" height=800, width=400 />
 </figure>
 <!-- <img src="https://github.com/shikshya1/projects/blob/main/topic-modeling/vis_depression_topics.png?raw=true" alt="Topics" title="Topics"> -->
 
