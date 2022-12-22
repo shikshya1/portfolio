@@ -1,6 +1,6 @@
 ---
 date: 2022-12-22T10:58:08-04:00
-tags: ["Serverless","AWS Lambda"]
+tags: ["Serverless","AWS Lambda", "EFS"]
 title: "Mount AWS EFS volume into AWS Lambda with the Serverless Framework"
 ---
 
