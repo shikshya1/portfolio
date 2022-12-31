@@ -8,11 +8,11 @@ t-Distributed Stochastic Neighbor Embedding (t-SNE) is a unsupervised, non-param
 
 While PCA is a popular algorithm used for dimension reduction, there are few differences that set t-SNE apart from PCA.  The objective of PCA is to project data into lower dimensional space in a way that maximizes the variance. It mostly preserves the distance between the dissimilar points but it can lead to poor visualization especially when dealing with non-linear manifold structures. While t-SNE works by preserving local similarities and produces better visualization as in complex datasets, large distances are usually less indicative of actual structure.
 
-
+### Link to github page: [Code](https://github.com/shikshya1/ML_Basics/tree/main/t-sne)
 
 Reference :
 
 1) https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf : Visualizing Data using t-SNE
 
 
-### Link to github page: [Code](https://github.com/shikshya1/ML_Basics/tree/main/t-sne)
+

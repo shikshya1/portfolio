@@ -10,9 +10,26 @@ Maps each word in the vocabulary(V) of the text corpus to a unique ID (integer v
 
 In one-hot encoding, each word w in the corpus vocabulary is given a unique integer ID w id that is between 1 and |V|, where V is the set of the corpus vocabulary. Each word is then represented by a V-dimensional binary vector of 0s and 1s.
 
+```
+documents= ['Human love dogs.','Dogs are intelligent.', 'Dog eats meat','Human love meat']
+
+
+from sklearn.preprocessing import OneHotEncoder
+one_hot_encoder = OneHotEncoder()
+data = [doc.lower().replace('.','').split() for doc in documents]
+encoded_text= one_hot_encoder.fit_transform(data).toarray()
+```
+
+
 ### Bag of Words:
 Represents the text under consideration as a bag (collection) of words while ignoring the order and context.
 
+```
+from sklearn.feature_extraction.text import CountVectorizer
+
+count_vect = CountVectorizer()
+bow = count_vect.fit_transform(data)
+```
 Advantages:
 
 - Simple to understand and implement.
@@ -30,6 +47,11 @@ Disadvantages:
 Breaks text into chunks of n contiguous words (or tokens). This can help us capture some context, which earlier approaches could not do. Each chunk is called an n-gram. The corpus vocabulary, V, is then nothing but a collection of all unique n-grams across the text corpus. Then, each document in the
 corpus is represented by a vector of length |V|. This vector simply contains the frequency counts of n-grams present in the document and zero for the n-grams that are not present.
 
+```
+count_vect = CountVectorizer(ngram_range=(1,3))
+
+```
+
 Pros and Cons:
 
 - It captures some context and word-order information in the form of n-grams.
@@ -40,6 +62,14 @@ Pros and Cons:
 ### TF-IDF:
 
 The intuition behind TF-IDF is as follows: if a word w appears many times in a document d<sub>i</sub> but does not occur much in the rest of the documents d<sub>j</sub> in the corpus, then the word w must be of great importance to the document d i . The importance of w should increase in proportion to its frequency in d<sub>i</sub> , but at the same time, its importance should decrease in proportion to the word’s frequency in other documents d<sub>j</sub> in the corpus. Mathematically, this is captured using two quantities: TF and IDF. The two are then combined to arrive at the TF-IDF score.
+
+```
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+tfidf= TfidfVectorizer()
+bow_tfid = tfidf.fit_transform(data)
+
+```
 
 Disadvantages :
 

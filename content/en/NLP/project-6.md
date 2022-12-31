@@ -11,6 +11,10 @@ Eucledian distance measures the distance between two points.
 
 {{< figure src="../eucledian_distance.png" >}}
 
+```
+def eucledian_dist(a,b):
+  return np.sqrt(np.sum(np.square(a - b)))
+```
 
 ### Cosine similarity
 
@@ -24,11 +28,16 @@ The similarity is:
 
 {{< figure src="../cosine_similarity.png" >}}
 
+```
+def cosine_sim(a, b): 
+	return np.dot(a, b.T) / (np.linalg.norm(a) * np.linalg.norm(b))
+```
 
 ### Transformers
 
 Transformers architecture is considered as one of the major breakthrough in the field of natural language processing (NLP). The embeddings created by transformers model are rich in information. Several pre-trained models are available in huggingface to perform semantic search and clustering.
 
+Calculate the embeddings using sentence transformers and calculate similarity between sentences using cosine similarity or other distance metrics.
 
 
 ### Link to github page: [Code](https://github.com/shikshya1/NLP/tree/main/Measuring%20Distance)
