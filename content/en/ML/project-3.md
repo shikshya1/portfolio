@@ -63,13 +63,13 @@ labels = model.labels_
 book_cluster = pd.DataFrame(list(zip(df["title"],labels)),columns=['title','cluster'])
 ```
 
-Naming clusters based on the top features on each clusters:
-Cluster number 0 => statistics and probability
-Cluster number 1 => Data Science
-Cluster number 2 => Machine Learning
-Cluster number 3 => Data Analysis
-Cluster number 4 => Deep Learning
-Cluster number 5 => Python
+Naming clusters based on the top features on each clusters: <br/>
+Cluster number 0 => statistics and probability <br/>
+Cluster number 1 => Data Science <br/>
+Cluster number 2 => Machine Learning <br/>
+Cluster number 3 => Data Analysis <br/>
+Cluster number 4 => Deep Learning <br/>
+Cluster number 5 => Python <br/>
 
 ```
 cluster number 0
