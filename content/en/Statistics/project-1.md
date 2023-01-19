@@ -47,8 +47,6 @@ import wquantiles
 import seaborn as sns
 import matplotlib.pylab as plt
 
-
-
 state = pd.read_csv('state.csv')
 ```
 
