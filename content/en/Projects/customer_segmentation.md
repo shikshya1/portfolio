@@ -167,5 +167,5 @@ The major clusters to target is cluster 0 and cluster 3. Since cluster 3 has hig
 
 
 
-The code for the implementation customer segmentation is linked [here](https://github.com/shikshya1/projects/tree/main/clustering)
+### The code for the implementation customer segmentation is linked [here](https://github.com/shikshya1/projects/tree/main/clustering)
 
