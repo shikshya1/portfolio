@@ -3,6 +3,8 @@ date: 2020-04-07T10:58:08-04:00
 description: "Exploratory Data Analysis"
 tags: ["Statistics"]
 title: "Exploratory Data Analysis"
+omit_header_text: true
+
 ---
 
 Statistics is the study of how to collect, organize, analyze and interpret numerical information and data. 

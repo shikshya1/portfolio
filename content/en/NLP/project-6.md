@@ -2,6 +2,8 @@
 date: 2022-10-07T10:58:08-04:00
 tags: ["BERT", "Cosine similarity", "Eucledian distance"]
 title: "Measuring Distance"
+omit_header_text: true
+
 ---
 
 <!-- # Measuring Distance -->

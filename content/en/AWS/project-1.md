@@ -2,6 +2,8 @@
 date: 2022-10-01T10:58:08-04:00
 tags: ["Serverless","AWS Lambda"]
 title: "Deploy lambda function with external python packages using serverless framework. "
+omit_header_text: true
+
 ---
 
 <br/>

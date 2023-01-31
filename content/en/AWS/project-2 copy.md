@@ -2,6 +2,8 @@
 date: 2022-10-01T10:58:08-04:00
 tags: ["Serverless","AWS Lambda"]
 title: "Mount AWS EFS volume into AWS Lambda with the Serverless Framework "
+omit_header_text: true
+
 ---
 
 One of the biggest challenge while deploying machine learning applications in AWS Lambda is the limited size of deployment package. It becomes more challenging when you are dealing with 'state of art' models like BERT. There are several ways to compress the models and use it in production. One of the technique is to mount EFS to the serverless function.

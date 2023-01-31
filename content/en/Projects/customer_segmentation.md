@@ -2,6 +2,8 @@
 date: 2022-11-05T10:58:08-04:00
 tags: ["k-means","clustering"]
 title: "Customer segmentation of retail dataset using kmeans clustering algorithm"
+omit_header_text: true
+
 ---
 
 Customer Segmentation

@@ -2,6 +2,8 @@
 date: 2022-10-01T10:58:08-04:00
 tags: ["Normalization", "ML"]
 title: "Feature Scaling"
+omit_header_text: true
+
 ---
 
 Feature scaling is one of the most important transformation in most of the ML projects. When one feature is on small range; say 0 to 10 while the other one is on a large range (suppose 0 to 10000); ML algorithms donot perform well. We have to scale the features so that both of them takes a comparable ranges of values to each other. In simpler terms, it means transforming data into a common range of values.

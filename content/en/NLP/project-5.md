@@ -2,6 +2,8 @@
 date: 2022-10-06T10:58:08-04:00
 tags: ["Word2Vec"]
 title: "Text Representation"
+omit_header_text: true
+
 ---
 
 Maps each word in the vocabulary(V) of the text corpus to a unique ID (integer value), then represent each sentence or document in the corpus as a V-dimensional vector.

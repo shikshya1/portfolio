@@ -2,6 +2,8 @@
 date: 2023-01-01T10:58:08-04:00
 tags: ["kmeans", "clustering"]
 title: "Clustering Amazon books based on book title"
+omit_header_text: true
+
 ---
 
 

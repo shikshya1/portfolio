@@ -2,6 +2,8 @@
 date: 2022-10-02T10:58:08-04:00
 tags: ["LIME", "SHAP"]
 title: "Interpreting Classification Models"
+omit_header_text: true
+
 ---
 
 When we are building classification models; we are most of the time concerned about the performance criteria (how accurate the model is to classify the output labels). We donot look for explanations as to why it decided to classify the input to a certain class. But there are situations where questioning the decision of classification model becomes necessary.

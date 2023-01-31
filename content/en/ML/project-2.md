@@ -2,6 +2,8 @@
 date: 2022-10-03T10:58:08-04:00
 tags: ["t-sne", "PCA"]
 title: "t-SNE"
+omit_header_text: true
+
 ---
 
 t-Distributed Stochastic Neighbor Embedding (t-SNE) is a unsupervised, non-parametric (non-linear) dimensionality reduction method  used for visualization and exploration of high-dimensional datasets. It gives an idea of how data is arranged in higher dimension. It's hard for us to visualize data beyond 3 dimension. Standard visualization methods can usually capture one or two variable at a time. In such cases, dimension reduction algorithm can help to analyze the pattern in the data. T-SNE preserves much of significant structure of high dimensional data as possible during projection. It is an iterative algorithm which minimizes non-convex objective using gradient descent. T-SNE is used to visualize genomic data, word embeddings, images etc. 
