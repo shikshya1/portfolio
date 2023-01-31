@@ -2,6 +2,8 @@
 date: 2022-11-05T10:58:08-04:00
 tags: ["NER","Sentiment Analysis"]
 title: "Extracting entities mentioned in the tweets posted by Former U.S president Trump, analyze the sentiment associated with it and visualize the data using Tableau"
+omit_header_text: true
+
 ---
 
 
