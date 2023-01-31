@@ -166,7 +166,7 @@ plt.show()
 Some terms used in data distribution:
 
 - Skewness: Refers to whether data is skewed to larger or smaller values
-- Kutosis: Indicates the propensity of the data to have extreme values
+- Kurtosis: Indicates the propensity of the data to have extreme values
 
 
 ### Link to github page: [Code](https://github.com/shikshya1/statistics/tree/main/exploratory_data_analysis)
