@@ -83,7 +83,7 @@ The most positive entities were associated with Baseball Hall of Fame, Lincoln M
 
 ![alt text][pos-entities]
 
-[pos-entities]: https://github.com/shikshya1/projects/blob/main/trump_tweets_analysis/images/positive_entities.png
+[pos-entities]: https://github.com/shikshya1/projects/blob/main/trump_tweets_analysis/images/positive_entities.png?raw=true
 
 The CSV with the sentiment associated with the entities can be further analyzed to gain better understanding of trump's tweet.
 
