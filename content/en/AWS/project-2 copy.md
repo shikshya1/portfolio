@@ -45,14 +45,14 @@ Lambda functions that access EFS must also run within the same VPC. We need to p
 ```
 fileSystemConfig:
       localMountPath: /mnt/tmp
-      arn: arn:aws:elasticfilesystem:us-east-1:931955206531:access-point/fsap-08c6b99eba84f318e
+      arn: arn:aws:elasticfilesystem:us-east-1:*********:access-point/fsap-*********
     vpc:
       securityGroupIds:
-        - sg-b774b4f9
+        - sg-********
       subnetIds:
-        - subnet-40762e0a
-        - subnet-42881d1e
-        - subnet-97fc74f0
+        - subnet-********
+        - subnet-********
+        - subnet-********
 ```
 
 
